@@ -29,6 +29,7 @@ Built with reliability, reproducibility, and production safety in mind:
     * *Digital Policy Office: Ethical Artificial Intelligence Framework*
     * *Digital Policy Office: Hong Kong Generative AI Technical and Application Guideline*
     * *ISO/IEC 42001:2023 International Standard Spec*
+* **Core System Guardrails**: Strict adherence to Hong Kong's anti-discrimination statutory pillars (Cap. 480, 487, 527, 602) is hardcoded directly into the agent's `SYSTEM_INSTRUCTIONS` prompt, ensuring baseline algorithmic fairness before RAG retrieval.
 * **Reasoning Engine**: Defaulted to enterprise-grade `gpt-4o` for deep multi-step compliance reasoning.
 * **Post-Deployment Self-Test**: Equipped with a robust `run_demo_query` hook that executes an automated end-to-end smoke test upon successful cloud provisioning.
 
